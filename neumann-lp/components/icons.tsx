@@ -71,3 +71,26 @@ export function GithubIcon(props: SVGProps<SVGSVGElement>) {
     </svg>
   );
 }
+export function LinkTreeIcon(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={1.6}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+      {...props}
+    >
+      <circle cx="12" cy="5" r="2" />
+      <circle cx="5" cy="19" r="2" />
+      <circle cx="12" cy="19" r="2" />
+      <circle cx="19" cy="19" r="2" />
+      <path d="M12 7v3" />
+      <path d="M12 10H5v7" />
+      <path d="M12 10v7" />
+      <path d="M12 10h7v7" />
+    </svg>
+  );
+}
