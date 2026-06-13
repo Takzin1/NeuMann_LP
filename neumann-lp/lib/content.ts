@@ -18,8 +18,8 @@ export interface Product {
 export interface Milestone {
   tag: string;
   title: string;
+  href?: string;
 }
-
 export interface ConceptProblem {
   term: string;
   body: string;
@@ -164,11 +164,14 @@ export const milestones: Milestone[] = [
   { tag: "プロダクト", title: "見守りくん：LINEミニアプリとしてプロトタイプ開発" },
   { tag: "展示", title: "福島大学 絆会ポスターセッションにて展示・体験会実施" },
   { tag: "評価", title: "地域見守り・防災アプリ関係者より高評価" },
-  { tag: "ノミネート", title: "Phase Free Award 2026 アイデア部門 ノミネート" },
   { tag: "プロダクト", title: "RiskFix：AIリスク査定MVPを開発" },
   { tag: "プロダクト", title: "たんクレ / NaFT：地域脱炭素支援MVPを開発" },
+  {
+    tag: "掲載",
+    title: "しあつく横瀬公式note にて取り組みが紹介されました",
+    href: "https://note.com/shiatsuku/n/na4e2ce543c83",
+  },
 ];
-
 // --- Founder --------------------------------------------------------------
 export const founder = {
   eyebrow: "Founder",

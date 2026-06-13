@@ -35,11 +35,23 @@ export function Milestones() {
                   >
                     <span className="h-2.5 w-2.5 rounded-full border-2 border-ai bg-paper" />
                   </span>
-                  <span className="inline-flex rounded-full bg-ai/8 px-2.5 py-0.5 text-[11px] font-semibold tracking-wide text-ai">
+                 <span className="inline-flex rounded-full bg-ai/8 px-2.5 py-0.5 text-[11px] font-semibold tracking-wide text-ai">
                     {m.tag}
                   </span>
-                  <p className="mt-2.5 text-[15px] leading-[1.7] text-ink">
-                    {m.title}
+                  {m.href ? (
+                    
+                      href={m.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="focus-ring mt-2.5 block text-[15px] leading-[1.7] text-ai underline decoration-line underline-offset-4 transition-colors hover:decoration-ai"
+                    >
+                      {m.title}
+                    </a>
+                  ) : (
+                    <p className="mt-2.5 text-[15px] leading-[1.7] text-ink">
+                      {m.title}
+                    </p>
+                  )}
                   </p>
                 </li>
               ))}

@@ -14,16 +14,13 @@ export function Founder() {
         </Reveal>
 
         <div className="mt-10 grid gap-10 sm:grid-cols-[auto_1fr] sm:gap-12 lg:gap-16">
-          {/* 漢字モノグラム（写真の代替） */}
+        {/* ファウンダー写真 */}
           <Reveal>
-            <div
-              className="flex h-24 w-24 items-center justify-center rounded-xl border border-line bg-mist sm:h-28 sm:w-28"
-              aria-hidden="true"
-            >
-              <span className="font-display text-[32px] font-medium tracking-[0.08em] text-ai sm:text-[38px]">
-                {founder.monogram}
-              </span>
-            </div>
+            <img
+              src="/founder.jpg"
+              alt={founder.name}
+              className="h-24 w-24 rounded-xl border border-line object-cover sm:h-28 sm:w-28"
+            />
           </Reveal>
 
           <Reveal delay={100}>
