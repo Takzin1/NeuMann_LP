@@ -1,10 +1,10 @@
 import { Container, Eyebrow } from "./ui";
 import { Reveal } from "./Reveal";
-import { MailIcon, XIcon, GithubIcon, ExternalIcon } from "./icons";
+import { MailIcon, LinkTreeIcon, ExternalIcon } from "./icons";
 import { contact } from "@/lib/content";
 
 export function Contact() {
-  const channels = [
+ const channels = [
     {
       label: "メール",
       value: contact.email,
@@ -13,21 +13,13 @@ export function Contact() {
       external: false,
     },
     {
-      label: "X",
-      value: contact.x.replace(/^https?:\/\//, ""),
-      href: contact.x,
-      Icon: XIcon,
-      external: true,
-    },
-    {
-      label: "GitHub",
-      value: contact.github.replace(/^https?:\/\//, ""),
-      href: contact.github,
-      Icon: GithubIcon,
+      label: "LinkTree",
+      value: contact.linktree.replace(/^https?:\/\//, ""),
+      href: contact.linktree,
+      Icon: LinkTreeIcon,
       external: true,
     },
   ];
-
   return (
     <section
       id="contact"
