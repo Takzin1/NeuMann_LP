@@ -161,7 +161,6 @@ export const milestonesIntro = {
 };
 
 export const milestones: Milestone[] = [
- export const milestones: Milestone[] = [
   { tag: "プロダクト", title: "見守りくん：LINEミニアプリとしてプロトタイプ開発" },
   { tag: "展示", title: "福島大学 絆会ポスターセッションにて展示・体験会実施" },
   { tag: "評価", title: "地域見守り・防災アプリ関係者より高評価" },
