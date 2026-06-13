@@ -194,10 +194,8 @@ export const contact = {
     "導入のご相談",
     "プロダクト連携",
   ],
-  // ↓ 仮置き。確定後に差し替えてください。
-  email: "contact@neumann.local",
-  x: "https://x.com/taka0101ty",
-  github: "https://github.com/taka0101ty",
+ email: "takazin1999@gmail.com",
+  linktree: "https://linktr.ee/TakahitoYumita_NeuMann",
 };
 
 // --- Footer ---------------------------------------------------------------
