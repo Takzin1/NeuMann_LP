@@ -14,7 +14,6 @@ export function Founder() {
         </Reveal>
 
         <div className="mt-10 grid gap-10 sm:grid-cols-[auto_1fr] sm:gap-12 lg:gap-16">
-        {/* ファウンダー写真 */}
           <Reveal>
             <img
               src="/founder.jpg"
