@@ -35,11 +35,11 @@ export function Milestones() {
                   >
                     <span className="h-2.5 w-2.5 rounded-full border-2 border-ai bg-paper" />
                   </span>
-                 <span className="inline-flex rounded-full bg-ai/8 px-2.5 py-0.5 text-[11px] font-semibold tracking-wide text-ai">
+                  <span className="inline-flex rounded-full bg-ai/8 px-2.5 py-0.5 text-[11px] font-semibold tracking-wide text-ai">
                     {m.tag}
                   </span>
                   {m.href ? (
-                    
+                    <a
                       href={m.href}
                       target="_blank"
                       rel="noopener noreferrer"
@@ -52,7 +52,6 @@ export function Milestones() {
                       {m.title}
                     </p>
                   )}
-                  </p>
                 </li>
               ))}
             </ol>
