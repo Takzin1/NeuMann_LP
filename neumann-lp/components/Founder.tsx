@@ -16,7 +16,7 @@ export function Founder() {
         <div className="mt-10 grid gap-10 sm:grid-cols-[auto_1fr] sm:gap-12 lg:gap-16">
           <Reveal>
             <img
-              src="/founder.jpg"
+              src="/founder.png"
               alt={founder.name}
               className="h-24 w-24 rounded-xl border border-line object-cover sm:h-28 sm:w-28"
             />
