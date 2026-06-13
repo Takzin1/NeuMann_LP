@@ -18,8 +18,8 @@ export interface Product {
 export interface Milestone {
   tag: string;
   title: string;
+  href?: string;
 }
-
 export interface ConceptProblem {
   term: string;
   body: string;
@@ -166,6 +166,11 @@ export const milestones: Milestone[] = [
   { tag: "評価", title: "地域見守り・防災アプリ関係者より高評価" },
   { tag: "プロダクト", title: "RiskFix：AIリスク査定MVPを開発" },
   { tag: "プロダクト", title: "たんクレ / NaFT：地域脱炭素支援MVPを開発" },
+  {
+    tag: "掲載",
+    title: "しあつく横瀬公式note にて取り組みが紹介されました",
+    href: "https://note.com/shiatsuku/n/na4e2ce543c83",
+  },
 ];
 // --- Founder --------------------------------------------------------------
 export const founder = {
