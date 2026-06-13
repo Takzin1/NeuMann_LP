@@ -3,6 +3,7 @@ import { Hero } from "@/components/Hero";
 import { Concept } from "@/components/Concept";
 import { Products } from "@/components/Products";
 import { FeaturedMimamori } from "@/components/FeaturedMimamori";
+import { Activity } from "@/components/Activity";
 import { Mission } from "@/components/Mission";
 import { Milestones } from "@/components/Milestones";
 import { Founder } from "@/components/Founder";
@@ -17,7 +18,8 @@ export default function Home() {
         <Hero />
         <Concept />
         <Products />
-        <FeaturedMimamori />
+       <FeaturedMimamori />
+        <Activity />
         <Mission />
         <Milestones />
         <Founder />
